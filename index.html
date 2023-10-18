@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushmita's Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/c841278d3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#services">Projects</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst</p>
+            <h1>Hi, I'm <Span>Sushmita</Span><br>From India</h1>
+        </div>
+    </div>
+</div>
+<!---------------about---------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p>
+                    Hello! I'm a dedicated learner with a keen interest in data analysis. My academic studies and self-directed learning have equipped me with foundational knowledge in data manipulation, visualization, and statistical analysis. I am enthusiastic about embracing new challenges and learning from experienced professionals to refine my skills and make meaningful contributions.My eagerness to embrace new challenges and learn from experienced professionals drives me to seek mentorship and contribute my best to any team I become a part of. I am committed to continuous learning, always on the lookout for opportunities that align with my career aspirations as a data analyst. I look forward to the exciting journey ahead, where I can leverage my passion for data to make a lasting impact.
+                </p>
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links"onclick="opentab('Education')">Education</p>
+                    <p class = "tab-links"onclick="opentab('Certificates')">Certificates</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>Data cleaning and preprocessing</li>
+                        <li>Data visualization</li>
+                        <li>Statistical analysis</li>
+                        <li>Machine learning</li>
+                        <li>Database management</li>
+                        <li>Data storytelling and communication</li>
+                        </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>2020 - 2024</span><br> Bachelor's of Technology (Computer Science)<br> Institute = Arya Institute of Engineering Technology <br>C.G.P.A = 9.54</li>
+                        <li><span>2020</span><br> Senior Secondary School <br> School = Vadanta International School <br> Percentage = 82.4 </li>
+                        <li><span>2018</span><br> Secondary School <br> School = B.H.D. Public School <br> Percentage = 92.84 </li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span>Core Java Training</span><br></li>
+                        <li><span>Advance Course on Robotics and Automation</span><br> </li>
+                        <li><span>Data Analyst Courses</span><br></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------Services--------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class = "sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <h2>PowerBi Dashboards</h2>
+                <p>This repo contains the different dashboards to represent the meaningful insight of the data.</p>
+                <a href="https://github.com/somra03/power-bi-dashboards">GitHub Repository </a>
+            </div>
+            <div>
+                <h2>Diwali sales data Analysis</h2>
+                <p> Performed data cleaning,manipulation and improved sales by identifying most selling product categories and products, which can help to plan inventory and hence meet the demands.</p>
+                <a href="https://github.com/somra03/Jupyter_Notebook_Code/blob/main/Diwali_Sales%20Data%20Analysis%20project.ipynb">GitHub Repository </a>
+            </div>
+            <div>
+                <h2>WebScrapping project</h2>
+                <p>In this project data is fetched from github and then that data is filtered and stored in csv files</p>
+                <a href="https://github.com/somra03/Jupyter_Notebook_Code/blob/main/WebScapping.ipynb">GitHub Repository</a>
+            </div>
+            <div>
+                <h2>Student Data Analysis</h2>
+                <p>In this project the data is taken from a school . The student data is then analysed and meaningful insights are taken from the data</p>
+                <a href="https://github.com/somra03/Jupyter_Notebook_Code/blob/main/Student%20Data%20Analysis.ipynb" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.png">
+            </div>
+            <div class="work">
+                <img src="images/work 2.png">
+            </div>
+            <div class="work">
+                <img src="images/work 3.png">
+            </div>
+        </div>
+        <a href="#" class=btn>See More</a>
+    </div>
+</div>
+
+<!-- ----------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sushmita.jaat03@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7073008751</p>
+                <div class = "social-icons">
+                    <a href = ""><i class="fa-brands fa-facebook"></i></a>
+                    <a href = ""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href = ""><i class="fa-brands fa-instagram"></i></a>
+                    <a href = "https://www.linkedin.com/in/sushmita-s-311355188/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download="images/Resume.pdf" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows = "6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>copyright @ 2023</p>
+</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw9RSbxjpJ6VJL-zFooGq9oo_MFQDYoBBGWU9-qZWMMiMjg3WoXFJSZk5t58S8ldKDF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
